@@ -11,4 +11,9 @@ public partial class WebPages_WebPage : System.Web.UI.Page
     {
 
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/About.aspx");
+    }
 }

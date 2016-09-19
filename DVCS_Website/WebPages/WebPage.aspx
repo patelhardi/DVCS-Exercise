@@ -8,7 +8,7 @@
     <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
     <asp:TextBox ID="temail" runat="server"></asp:TextBox>
     
-    <asp:Button ID="Button1" runat="server" Text="Submit" />
+    <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
 
 </asp:Content>
 
